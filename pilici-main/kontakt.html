@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        div.gallery {
+          margin: 5px;
+          
+          float: left;
+          width: 180px;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          object-fit: cover;
+        }
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: bold;
+  
+}
+</style>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="katarina_stil.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+</head>
+
+<body>
+    <header>
+        <center>
+
+            <h2>PILIĆI</h2>
+
+        </center>
+    </header>
+    <nav>
+        <div class="navi">
+            <ul>
+                <li><a href="index.html">POČETNA</a></li>
+                <li><a href="paulina.html">PAULINA</a></li>
+                <li><a href="katarina.html" >KATARINA</a></li>
+                <li><a href="filip.html" >FILIP</a></li>
+                <li><a href="nikola.html">NIKOLA</a></li>
+                <li><a href="kontakt.html" style="color:green;">KONTAKT</a></li>
+                <li><a href="dokumenti.html">DOKUMENTI</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <center>
+            <h1>KONTAKT</h1>
+            <hr />
+        </center>
+
+        <div class="container">
+        <form action="/action_page.php">
+            <center><ul style="list-style: none;font-weight: normal;line-height: 20px;">
+                <li>Paulina: plalic@tvz.hr, +385 98 198 7855</li>
+                <li>Katarina: kcuric@tvz.hr, +385 99 909 088</li>
+                <li>Filip: fcorluka@tvz.hr, +385 91 147 8635</li>
+                <li>Nikola: nprgin@tvz.hr, +385 91 180 997</li>
+            </ul><br></center>
+            <label for="fname">Ime</label>
+            <input type="text" id="fname" name="firstname" placeholder="Vase ime..">
+
+            <label for="lname">Prezime</label>
+            <input type="text" id="lname" name="lastname" placeholder="Vase prezime..">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Vas email..">
+
+            <label for="subject">Poruka</label>
+            <textarea id="subject" name="subject" placeholder="Poruka.." style="height:200px"></textarea>
+
+            <input type="submit" value="Posalji">
+        </form>
+        </div>
+
+    </main>
+
+        <footer>
+            <center>
+                <p>Tehničko veleučilište u Zagrebu 2021.</p>
+            </center>
+        </footer>
+
+</body>
+
+</html>
